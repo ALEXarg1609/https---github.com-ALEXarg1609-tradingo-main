@@ -37,7 +37,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Login</a></li>
-                                <li><a class="dropdown-item" href="#">Registro</a></li>
+                                <li><a class="dropdown-item" href="registro.html">Registro</a></li>
                                 <li><a class="dropdown-item" href="#">Ayuda</a></li>
                             </ul>
                         </li>
@@ -52,17 +52,14 @@
             <div class="main__container">
                 <form class="main__form" action="/submit-form" method="post">
                     <label class="main__label_title">Contacto</label>
-                    <i class="fa-solid fa-user fa-2xl"></i>
-                    <input class="main__input" type="text" id="name" name="name" placeholder="Ingrese su nombre"
-                    required>
-                    <i class="fa-solid fa-envelope fa-2xl"></i>
-                    <input class="main__input" type="email" id="email" name="email" placeholder="Ingrese su gmail"
-                        required>
-                    <label class="main__label" for="subject">Asunto:</label>
-                    <input class="main__input" type="text" id="subject" placeholder="Escruba su mensaje"
-                        name="subject">
-                        <i class="fa-solid fa-pen-to-square fa-2xl"></i>
-                    <textarea class="main__input" id="message" name="message" required></textarea>
+                    <div><i class="fa-solid fa-user fa-2xl"></i><input class="main__input" type="text" id="username"
+                            name="username" placeholder="Ingrese su nombre"></div>
+                    <div><i class="fa-solid fa-envelope fa-2xl"></i><input class="main__input" type="email" id="email"
+                            name="email" placeholder="Ingrese su gmail" required></div>
+                    <div><label class="main__label" for="subject">Asunto:</label><input class="main__input" type="text"
+                            id="subject" placeholder="Escriba su mensaje" name="subject"></div>
+                    <div><i class="fa-solid fa-pen-to-square fa-2xl"></i> <textarea class="main__input" id="message"
+                            name="message" required></textarea></div>
                     <button class="main__form-button" type="submit">Enviar</button>
                 </form>
             </div>

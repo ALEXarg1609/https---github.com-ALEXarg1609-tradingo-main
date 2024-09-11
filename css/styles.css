@@ -4,7 +4,7 @@
     padding: 0;
     font-size: 15px;
     font-family: 'Console'
-    box-sizing: border-box;
+        box-sizing: border-box;
 }
 
 /* Estilos para la scrollbar */
@@ -250,19 +250,20 @@ y compartidos con las demas paginas del sitio*/
 .main__contact {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.911);
+    background: #1a1a1a;
+    box-shadow: 5px 4px 30px rgb(8, 0, 0);
 }
 
-.main__label_title{
-color: white;
-text-align: center;
-font-size: 18px;
-border-bottom:1px solid white;
+.main__label_title {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid white;
 }
 
-.fa-solid{
+.fa-solid {
     margin: 10px;
-    
+    color: white;
 }
 
 .main__form {
@@ -270,9 +271,14 @@ border-bottom:1px solid white;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.027);
-    width: 30%;
-    height: 50%;
+    background-color: #33333336;
+    width: 20%;
+    height: 60%;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(51, 51, 51, 1);
 }
 
 
@@ -282,9 +288,7 @@ border-bottom:1px solid white;
     margin-top: 5px;
 }
 
-#contraseña_c{
-    
-}
+
 
 .main__input {
     width: 200px;
@@ -306,10 +310,11 @@ border-bottom:1px solid white;
     background: none;
     border-radius: 50px;
 }
-.main__form-button:hover{
+
+.main__form-button:hover {
     background-color: white;
     color: black;
-    
+
 }
 
 /*Estilos la pagina de cursos disponibles*/
@@ -415,13 +420,13 @@ border-bottom:1px solid white;
 
 .editor {
     width: 21cm; /* Tamaño estándar A4 */
-    height: 29.7cm;
-    border: 1px solid #ccc;
-    padding: 2cm;
-    background-color: #fff;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+height: 29.7cm;
+border: 1px solid #ccc;
+padding: 2cm;
+background-color: #fff;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+position: relative;
 }
 
 .page {
@@ -432,14 +437,16 @@ border-bottom:1px solid white;
     position: relative;
 }
 
-.header, .footer {
+.header,
+.footer {
     text-align: center;
     font-size: 1.2em;
 }
 
 .content {
     line-height: 1.6;
-    margin-bottom: 3cm; /* Espacio para el pie de página */
+    margin-bottom: 3cm;
+    /* Espacio para el pie de página */
 }
 
 .page-number {
@@ -448,15 +455,17 @@ border-bottom:1px solid white;
     right: 0;
     font-size: 0.8em;
 }
+
 /* _______________________________________________ */
 
 /*Estilos para la pagina del formulario de registro*/
-.main__section__registro{
+.main__section__registro {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
 }
-.main__container__registro{
+
+.main__container__registro {
     width: 100%;
     height: 100%;
     display: flex;
@@ -469,10 +478,11 @@ border-bottom:1px solid white;
 /* _______________________________________________ */
 
 /*Estilos para las cartas (cursos)*/
-.card{
-margin: 0.5%;
-background-color: black;
+.card {
+    margin: 0.5%;
+    background-color: black;
 }
-.card-body{
-color: white;
+
+.card-body {
+    color: white;
 }
