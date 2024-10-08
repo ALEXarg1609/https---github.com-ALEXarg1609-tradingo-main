@@ -8,7 +8,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/e663ff64f1.js" crossorigin="anonymous"></script>
-    <script type="module" src="main.js" ></script>
+    <script type="module" src="js/registro.js" defer></script>
 
     <title>Registro</title>
 </head>
@@ -40,7 +40,7 @@
                                 Perfil
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Login</a></li>
+                                <li><a class="dropdown-item" href="/login.html">Login</a></li>
                                 <li><a class="dropdown-item" href="/registro.html">Registro</a></li>
                                 <li><a class="dropdown-item" href="/ayuda.html">Ayuda</a></li>
                             </ul>
@@ -54,7 +54,7 @@
     <main class="main__contact">
         <section class="main__section">
             <div class="main__container">
-                <form class="main__form" id="registro-form" method="post">
+                <form class="main__form" id="registro-form">
                     <div><i class="fa-solid fa-user fa-2xl"></i><input class="main__input" type="text"
                             id="registro-nick" placeholder="Ingrese su nombre" required></div>
                     <div><i class="fa-solid fa-envelope fa-2xl"></i><input class="main__input" type="email"
